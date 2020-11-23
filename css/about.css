@@ -1,0 +1,343 @@
+.aboutbanner{
+    width: 100%;
+    height: 254px;
+    background: url(../images/aboutbanner.jpg);
+}
+.area{
+    width: 1000px;
+    margin: auto;
+    clear: both;
+}
+.location h2{
+    font-weight: bold;
+    color: #444866;
+    line-height: 29px;
+    font-size: 20px;
+    padding-left: 30px;
+    height: 29px;
+    background: url(../images/location.png) no-repeat 0 -44px;
+}
+.location {
+    padding: 25px 0 15px;
+    border-bottom: 1px solid #c7d6e5;
+}
+.qlink {
+    float: right;
+    line-height: 20px;
+    height: 20px;
+    margin-top: 4px;
+    color: #444866;
+}
+.qlink a.home {
+    width: 20px;
+    height: 20px;
+    background: url(../images/home.png) no-repeat center 3px;
+}
+
+.qlink a.haha:hover{
+    color: #38b774;
+}
+.qlink a, .qlink label {
+    display: inline-block;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    outline: none;
+    color: #444866;
+    cursor: pointer;
+    transition: background-color 0.2s linear 0s;
+}
+
+.qlink em {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/icon.png) no-repeat 0 -150px;
+    width: 4px;
+    height: 8px;
+    line-height: 8px;
+    margin: 0 7px;
+}
+.combox {
+    padding-bottom: 40px;
+    overflow: hidden;
+    /* 清除浮动 */
+}
+
+.pleft{
+    float: left;
+    width: 230px;
+    padding-top: 40px;
+}
+.swiper-container{
+    overflow: hidden;
+    height: 460px;
+}
+.catelist ulist{
+    width: auto;
+    height: auto;
+}
+.catelist li{
+    border-bottom: 1px solid #c7d6e5;
+}
+.catelist li h3{
+    font-weight: bold;
+}
+.catelist li.current h3{
+
+  background: url(../images/arrow.png) no-repeat right center ;
+}
+.catelist li em{
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 12px;
+    
+}
+
+.catelist li.current a{
+    color: #38b774;
+}
+.catelist li a:hover{
+    color: #38b774;
+}
+.catelist li a{
+    display: block;
+    padding: 15px 0;
+}
+.pright{
+    float: right;
+    width: 732px;
+    padding-top: 40px;
+    
+}
+.p_about {
+  display: none;
+}
+.about{
+    display: block;
+}
+.about {
+    color: #444866;;
+
+}
+.about p{
+    text-indent: 2em;
+    margin-bottom: 30px;
+    line-height: 2.4;
+    font-size:14px;
+
+}
+.development{
+    font-size: 14px;
+    padding-left: 10px;
+}
+.development  dt{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+    background: url(../images/icon.png) no-repeat 0 -90px;
+    margin-bottom: 15px;
+   
+    
+}
+.development  dd{
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+.development  dd p{
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-size: 14px;
+   
+}
+.development dd p.only{
+    color: #38b774;
+    font-weight: bold;
+}
+.buju h2{
+    font-size: 24px;
+    text-align: center;
+    line-height: 2;
+    font-weight: bold;
+    
+}
+.buju  h3{
+    font-size: 18px;
+    color: #c7d6e5;;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+.buju p{
+    text-indent: 2em;
+    margin-bottom: 30px;
+    line-height: 2.4;
+    font-size:14px;
+
+}
+.map{
+    padding:20px 0;
+    border-bottom:  1px solid #c7d6e5;
+    margin-bottom: 30px;
+  }
+.buju  h5{
+    margin-left: 28px;
+    padding-left: 17px;
+    background: url(../images/dot.png) no-repeat 0 4px;
+}
+.gamelist {
+    width: 730px;
+    overflow: hidden;
+}
+.gamelist li{
+    float: left;
+    width: 180px;
+    margin-top: 20px;
+    text-align: center;
+}
+.culture li{
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    /* 清除浮动，使盒子被内容撑开 */
+}
+.culture li .culicon{
+    width: 110px;
+    float: left;
+    text-align: center;
+}
+
+.culture li .culicon i{
+    display: inline-block;
+    width: 97px;
+    height: 97px;
+    background: url(../images/cul_icon.png) no-repeat;
+}
+.culture li.cul2 i{
+    background-position: 0 -250px;
+    
+}
+.culture li.cul3 i{
+  background-position: 0 -500px;
+}
+.culture li.cul4 i{
+    background-position: 0 -750px;
+
+}
+.culture .culnfo{
+    float: right;
+    width: 575px;
+}
+.culture .culnfo h5{
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+.culture .culnfo h5 em{
+    color: #f39800;
+    font-size: 18px;
+    font-weight: bold;
+   padding-right: 5px;
+   font-style: normal;
+}
+.culture  li.cul2 .culnfo h5 em
+{
+    color: #38b774;
+}
+.culture  li.cul3 .culnfo h5 em{
+    color: #6672ca;
+}
+.culture  li.cul4 .culnfo h5 em{
+    color: #da6c54;
+}
+
+.culture .culnfo p{
+    font-size: 14px;
+    line-height: 2;
+}
+.contact dt{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 2;
+   
+}
+.contact dd{
+    padding: 10px 0;
+    border-bottom: 1px solid #c7d6e5;
+    margin-bottom: 20px;
+    
+    
+}
+.contact  em{
+    font-style: normal;
+    font-weight: normal;
+    color: #c7d6e5;
+    font-size: 18px;
+}
+.address li{
+    margin-bottom: 15px;
+    padding-top: 5px;
+    overflow: hidden;
+}
+.address li .companyname{
+    float: left;
+    width: 75px;
+    text-align: center;
+    margin-right: 17px;
+    padding-top: 5px;
+}
+.address li .companyname h3{
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+.address li .companyadd{
+    float: left;
+    font-size: 14px;
+    line-height: 24px;
+    width: 600px;
+}
+.rightewm{
+  position: absolute;
+  right: -0px;
+   top: -6px;
+   width: 176px;
+   text-align: center;
+  
+
+}
+.rightewm h5{
+    font-size: 14px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.cooper{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    width: 700px;
+    overflow: hidden;
+}
+.cooper li{
+    float: left;
+    padding-left: 18px;
+    background: url(../images/icon.png) no-repeat 0 -194px;
+    font-size: 14px;
+    width: 300px;
+    margin-bottom: 2px;
+   
+}
+.cooper li.user{
+    background-position: 0 -600px;
+}
+.cooper li.email{
+    background-position: 0 -244px;
+    width: 360px;
+}
+.addressmap{
+    padding: 10px 0;
+}
+.contact dd:last-child {
+    border-bottom: 0 none;
+}

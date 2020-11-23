@@ -1,0 +1,134 @@
+/* 公共样式 */
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* 版心 */
+.inner{
+  
+    width: 1000px;
+    margin: 0 auto;;
+}
+/* 头部样式 */
+.header{
+    width: 100%;
+    height:60px ;
+   background-color:#191d3a ;
+}
+.header .inner .logo{
+    float: left;
+    width: 205px;
+    height: 48px;
+    padding-top: 10px;
+    padding-left: 20px;
+    overflow: hidden;
+  
+}
+.header .inner .logo a{
+    display: block;
+    width: 157px;
+    height: 35px; 
+    background-image: url(../images/logo.png);
+    text-indent: -999px;
+    
+}
+.haeder .nav{
+    float: left;
+    width: 626px;
+    height: 59px;
+  
+}
+.header .nav ul li{
+    float: left;
+    width: 85px;
+    border-left :1px solid #252947;
+    height: 58px;
+}
+.header .nav ul li a{
+    display: block;
+   height: 58px;
+    line-height: 58px;
+    text-align: center;
+    color:#818496;
+}
+.header .nav ul li.first a{
+      background-color:  #252947;
+}
+.header .nav ul li a:hover{
+    color:#fff ;
+}
+/* 特殊样式 */
+.header .nav ul li.last {
+    width: 100px;
+    height: 46px;
+    padding-top:12px;
+    padding-left: 9px;
+    
+ }  
+ .header .nav ul li.last  a{
+     width: 98px;
+     height: 32px;
+     background-color:#38B774 ;
+     border: 1px solid #3ACA7A;
+     border-radius: 3px;
+     line-height: 32px;
+     color: #fff;
+ }
+ .header .nav ul li.last a:hover{
+     background-color:#3ec96a ;
+ }
+ .header .lang{
+     float:right;
+ }
+ 
+ .header .lang a{
+     line-height: 58px; 
+     color: #444866;
+     
+ }
+ .header .lang .let{
+     color:#38B774  ;
+     padding-right: 10px;
+ }
+ .header .lang .lot:hover{
+     color: #38B774;
+ }
+ .footer{
+    background-color: #191d3a;
+    width: 100%;
+    clear: both;
+    line-height: 50px;
+ }
+ .footer .area{
+
+     width: 1000px;
+     clear: both;
+     margin: auto;
+ }
+ .footer .area p{
+     color: #6C6E7E;
+     font-size: 12px;
+ }
+ .footer .area p a{
+    color: #6C6E7E;
+}
+
+.footer .area p a:hover{
+    color: #fff;
+}
+.gotop{
+    display: block;
+}
+.gotop{
+    position: fixed;
+    right: 15px;
+    bottom: 75px;
+    width: 68px;
+    height: 29px;
+    background: url(../images/top.png) no-repeat 0 -40px ;
+    z-index: 999;
+}
+.gotop:hover{
+     background-position: 0 0; 
+}

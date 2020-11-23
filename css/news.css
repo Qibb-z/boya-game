@@ -1,0 +1,161 @@
+.newsbanner{
+    width: 100%;
+    height: 254px;
+    background-image: url(../images/newsbanner.jpg);
+   
+}
+.area{
+    width: 1000px;
+    margin: auto;
+    clear: both;
+   
+}
+.location h2{
+    font-weight: bold;
+    color: #444866;
+    line-height: 29px;
+    font-size: 20px;
+    padding-left: 30px;
+    height: 29px;
+    background: url(../images/location.png) no-repeat 0 6px;
+}
+.location {
+    padding: 25px 0 15px;
+    border-bottom: 1px solid #c7d6e5;
+}
+.qlink {
+    float: right;
+    line-height: 20px;
+    height: 20px;
+    margin-top: 4px;
+    color: #444866;
+}
+.qlink a.home {
+    width: 20px;
+    height: 20px;
+    background: url(../images/home.png) no-repeat center 3px;
+}
+.qlink a, .qlink label {
+    display: inline-block;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    outline: none;
+    color: #444866;
+    cursor: pointer;
+    transition: background-color 0.2s linear 0s;
+    font-size: 14px;
+}
+
+.qlink em {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/icon.png) no-repeat 0 -150px;
+    width: 4px;
+    height: 8px;
+    line-height: 8px;
+    margin: 0 7px;
+}
+.area combox{
+    padding-top: 40px;
+}
+
+.nleft{
+    float: left;
+    width: 735px;
+    padding-top: 20px;
+}
+.nleft{
+    padding-bottom: 40px;
+} 
+.nlist li { 
+    line-height: 1.8;
+     padding: 15px 0; 
+     font-size: 14px;
+     /* 规定段落中的文本不换行 */
+      white-space: nowrap;
+      -o-text-overflow:ellipsis;
+      text-overflow:ellipsis; 
+      overflow:hidden;
+     }
+.nlist li em{
+    float: right;
+    color:#afbecf;
+    font-size: 12px;
+}
+.nlist li a{
+    font-weight: bold;
+   
+}
+.nlist li a:hover{
+    color:#33b972 ;
+}
+.pages {
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    text-align: center;
+}
+.pages {
+    clear: both;
+    margin: 20px;
+}
+.pages a {
+    color: #444866;
+    font-size: 12px;
+    text-decoration: none;
+    vertical-align: middle;
+    display: inline-block;
+    min-width: 28px;
+    height: 28px;
+    background: #fff;
+    border: 1px solid #c3cbe3;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 28px;
+     margin: 0 5px;
+   
+}
+.pages a:hover{
+    color: #fff;
+    background: #8894bb;
+    border: 0;
+    widows: 30px;
+    height: 28px;
+    line-height: 28px
+}
+.pr{
+    position: relative; 
+    border-left:1px solid  #dbe1e7;
+}
+
+.nright{
+    float: right;
+    width: 230px;
+    padding-left: 20px;
+    padding-left: 1px solid #dbe1e7;
+    padding-top: 20px;
+}
+.swiper-container {
+    overflow: hidden;
+    height: 460px;
+}
+.topiclist li{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.topiclist h5{
+    font-size: 1.166em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.topiclist li h5 span {
+    display: inline-block;
+    padding-right: 12px;
+    background: url(../images/arrow.png) no-repeat right center;
+}
+.topiclist h5 a:hover{
+    color: #33b972 ;
+}
+

@@ -1,0 +1,229 @@
+.gamebanner{
+    width: 100%;
+    height: 254px;
+    background-image: url(../images/gamebanner.jpg);
+   
+}
+.area{
+    width: 1000px;
+    /* height: 896px; */
+    margin: auto;
+    clear: both;
+   
+}
+.location h2{
+    font-weight: bold;
+    color: #444866;
+    line-height: 29px;
+    font-size: 20px;
+    padding-left: 30px;
+    height: 29px;
+    background: url(../images/location.png) no-repeat 0 -44px;
+}
+.location h2.game_t{
+    background-position: 0 -94px;
+}
+.location {
+    padding: 25px 0 15px;
+    border-bottom: 1px solid #c7d6e5;
+}
+.qlink {
+    float: right;
+    line-height: 20px;
+    height: 20px;
+    margin-top: 4px;
+    color: #444866;
+}
+.qlink a.home {
+    width: 20px;
+    height: 20px;
+    background: url(../images/home.png) no-repeat center 3px;
+}
+.qlink a, .qlink label {
+    display: inline-block;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    outline: none;
+    color: #444866;
+    cursor: pointer;
+    transition: background-color 0.2s linear 0s;
+  
+}
+
+.qlink em {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/icon.png) no-repeat 0 -150px;
+    width: 4px;
+    height: 8px;
+    line-height: 8px;
+    margin: 0 7px;
+}
+.combox{
+    padding-bottom: 40px;
+}
+.gleft{
+    float: left;
+    width: 195px;
+    padding-top:40px;
+}
+.gnavlist li{
+    border-bottom: 1px solid #cad6e1;
+}
+.gnavlist li.on {
+    background: url(../images/arrow.png) no-repeat right center;
+}
+.gnavlist li a{
+   display: block;
+    padding-left: 52px;
+    height: 80px;
+    font: 1.333em/80px Arial;
+    width: 143px;
+    position: relative;
+}
+.gnavlist li a i {
+    position: absolute;
+    left: 0;
+    top: 23px;
+    height: 41px;
+    width: 34px;
+    background: url(../images/pad.png) no-repeat;
+}
+.gnavlist li.on a i {
+    background-position: -125px 0;
+}
+.gnavlist li a i.android {
+    background-position: -4px -97px;
+}
+.gnavlist li a i.ipad{
+    background-position: 2px -199px;
+}
+.gnavlist  li.on a{
+    color:  #38b774;
+}
+.gnavlist li a:hover{
+    color: #38b774;
+}
+.gnavlist li a:hover i.android{
+    background-position: -124px -97px;
+}
+.gnavlist li a:hover i.ipad{
+    background-position: -119px -199px;
+}
+.gright{
+    float: right;
+    width: 757px;
+    padding-top: 44px;
+}
+.glistcom{
+    width: 757px;
+    overflow: hidden;
+}
+.glist{
+    width: 110%;
+}
+
+.glist li {
+    float: left;
+    margin-bottom: 42px;
+    margin-right: 43px;
+    width: 355px;
+    height: 327px;
+    border: 1px solid #cad6e1;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.glist li h3 {
+    height: 55px;
+    padding-top: 3px;
+    line-height: 55px;
+    font-weight: normal;
+    font-size: 1.333em;
+}
+.glist li .gimg a:hover img{
+    opacity: 0.8;
+}
+.glist li:hover{
+    background-color:rgba(255, 255, 255, .5);
+}
+.glist li h3 span{
+    padding-right: 1.166rem;
+    font-size: 12px;
+    font-family: Arial;
+    color: #38B774;
+    background: url(../images/arrow.png) no-repeat right center;
+    text-transform: uppercase;
+    margin-left: 4px;
+}
+.glist li .glink {
+    width: 331px;
+    height: 36px;
+    margin: auto;
+}
+.glist .glink .appstore {
+    float: left;
+    height: 36px;
+    border-right: 1px solid #c7d6e5;
+    width: 169px;
+    text-align: center;
+   margin-top: 20px;
+   line-height: 26px;
+
+}
+
+.glist li .glink .appstore a {
+    display: inline-block;
+    vertical-align: top;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 33px;
+    font-size: 1.166em;
+    font-family: Arial;
+    background: url(../images/icon.png) no-repeat 0 -347px;
+}
+.glist li h3 a:hover{
+    color:#38b774;
+
+}
+.glist li .glink .appstore a:hover{
+    color: #38b774;
+}
+.glist li .glink .ewmlink a:hover{
+    color: #38b774;
+}
+.glist  li .glink .ewmlink{
+    float: left;
+    width: 160px;
+    height: 36px; 
+    position: relative;
+}
+.glist  li .glink .ewmlink .com a{
+
+    display: inline-block;
+    vertical-align: text-top;
+    padding-left: 40px;
+    line-height: 36px;
+    font-size: 1.166em;
+    margin-top: 20px;
+    background: url(../images/icon.png) no-repeat 0 -448px;
+}
+.glist li .glink .ewmlink i { 
+    position: absolute; 
+    background: url(../images/ewmbg.png) no-repeat;
+     padding-top: 10px;
+      text-align: center; 
+      width: 146px; 
+      height: 142px; 
+      left: -29px; 
+      bottom: 34px;
+      margin-bottom: -10px;
+     display: none;
+     }
+     .glist li .glink .ewmlink:hover i{
+         display: block;
+     }

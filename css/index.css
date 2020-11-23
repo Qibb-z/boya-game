@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.carousel{
+    width: 100%;
+    height: 460px;
+    position: relative;
+}
+.carousel  img{
+    width: 100%;
+    height: 460px;
+
+}
+.carousel ul li{
+    width: 100%;
+    height: 460px;
+    position: absolute;
+    display: none;
+}
+.carousel ul li.cur{
+    display: block;
+}
+.carousel .circles{
+    width: 135px;
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    bottom: 20px;
+}
+.carousel .circles  li{
+    float: left;
+    width: 12px;height: 12px;
+    border-radius: 6px;
+    background-color: #fff;
+    overflow: hidden;
+    text-indent: -9999px;
+    margin-right: 15px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.carousel .circles li.active{
+ background-color: #fff;
+ opacity: 1;
+
+}
+
+.carousel ul li.last{
+    width: 100%;
+    position: relative;
+}
+.carousel ul li.last .intro{
+    position: absolute;
+    width: 460px;
+    left: 52%;
+    margin-top:-380px;
+} 
+
+.carousel ul li.last .intro .online{
+    position: absolute;
+    right: 0;
+    width: 115px;
+
+}
+.online:hover dt {
+    background-position: -120px 0;
+} 
+.online:hover dd{
+    display: block;
+}
+.online dt {
+    height: 37px;
+    padding-left: 17px;
+    color: #191d3a;
+    line-height: 37px;
+    font-size: 1.166em;
+    background: url(../images/online.png) no-repeat;
+}
+.online dd {
+   display: none;
+    padding: 2px 0 8px 13px;
+    background-color: #fff;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-bottom-right-radius: 15px;
+}
+.online dd a.pt5 {
+    background-position: -100px -47px;
+}
+.online dd a{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/online.png) no-repeat 0 -47px;
+    margin-right: 4px;
+}
+.intro p{
+    font-weight: normal;
+    margin-top: 100px;
+    line-height: 30px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.download dt{
+    color: #101d3a;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+    height: 35px;
+    line-height: 35px;
+    background: url(../images/download.png) no-repeat 5px 10px;
+    margin-bottom: 8px;
+}
+.download dd{
+    height: 106px;
+}
+.download dd a.ipad{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: url(../images/pad.png)no-repeat 30px -182px;
+}
+.download dd a.iphone{
+    background: url(../images/pad.png)no-repeat 30px 18px;
+}
+.download  dd .android{
+    background: url(../images/pad.png)no-repeat 24px -82px;
+}
+.download dd a.downlink{
+    width: 83px;
+    height: 106px;
+    float: left;
+    font-size: 14px;
+    /* background: url(../images/pad.png) no-repeat 30px 18px; */
+    background-color: rgba(300, 300, 300, .7);
+    color: #444866;
+    margin-right: 2px;
+    padding-top: 71px;
+    text-align: center;
+
+
+}
+.download dd a.downlink:hover{
+    background-color: white;
+}
+.download dd .ewm{
+    width: 111px;
+    height: 106px;
+    text-align: center ;
+    background-color: rgba(300, 300, 300, .7);
+    float: left;
+    padding-top: 13px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.download dd .ewm img{
+    width: 80px;
+    height: 80px;
+}
+.download dd .ewm:hover{
+    background-color: white;
+}
+
+#banner2{
+    width: 100%;
+    height: 700px;
+    background: #fff url(../images/indexmainbg.jpg)no-repeat center bottom;
+    padding-bottom: 57px;
+}
+.indexpro,.indexpro2,.indexpro3{
+    padding-top: 50px;
+    padding-bottom: 35px;
+    display: none;
+}
+.indexpro{
+    display: block;
+}
+
+.area{
+    width: 1000px;
+    margin: auto;
+    clear: both;
+}
+.indexpro .bd,
+.indexpro2 .bd,
+.indexpro3 .bd{
+    width: 1000px;
+    overflow: hidden;
+    height: 200px;
+    margin-bottom: 29px;
+}
+.indexpro .bd li,
+.indexpro2 .bd li,
+.indexpro3 .bd li{
+    float: left;
+    width: 218px;
+    height: 200px;
+    margin-right: 42px;
+   text-align: center;
+}
+.indexpro .bd li:last-child,
+.indexpro2 .bd li:last-child,
+.indexpro3 .bd li:last-child{
+    margin-right: 0;
+}
+.indexpro .bd li a,
+.indexpro2 .bd li a,
+.indexpro3 .bd li a{
+    color: black;
+    display: block;
+    width: 218px;
+    height: 200px;
+}
+.indexpro li img,
+.indexpro2 li img,
+.indexpro3 li img{
+    width: 218px;
+    height: 128px;
+}
+img{
+    border: none;
+    vertical-align: middle;
+}
+.indexpro .bd li h5,
+.indexpro2 .bd li h5,
+.indexpro3 .bd li h5{
+    color: #444866;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 0 10px 0;
+    font-weight: bold;
+}
+.indexpro .bd li p,
+.indexpro2 .bd li p,
+.indexpro3 .bd li p {
+    padding-bottom: 10px;
+}
+.indexpro .bd li p span,
+.indexpro2 .bd li p span,
+.indexpro3 .bd li p span{
+    display: inline-block;
+    padding-right: 11px;
+    background: url(../images/arrow.png) no-repeat right center;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #38b774;
+}
+.indexpro .bd li a:hover img,
+.indexpro2 .bd li a:hover img,
+.indexpro3 .bd li a:hover img
+ {
+    opacity: 0.8;
+    background-color: #fff;
+}
+.indexpro .bd li a:hover h5,
+.indexpro2 .bd li a:hover h5,
+.indexpro3 .bd li a:hover h5{
+    color:#fff;
+    background-color: #38b774;
+    transition: background-color 0.5s linear 0s;
+}
+.indexpro .bd li a:hover p,
+.indexpro2 .bd li a:hover p,
+.indexpro3 .bd li a:hover p{
+     color:#fff;
+    background-color: #38b774;
+    transition: background-color 0.5s linear 0s;
+}
+.indexpro .bd li a:hover p span,
+.indexpro2 .bd li a:hover p span,
+.indexpro3 .bd li a:hover p span{
+    color:#fff;
+    background: url(../images/arrow_hover.png) no-repeat right center;
+}
+.indexpro .hd{
+    border-top: 1px solid #dbe1e7;
+    height: 18px;
+    clear: both;
+}
+.indexpro .hd ul{ 
+    width: 75px;
+    padding-left: 14px;
+    height: 11px;
+    margin: -6px auto 0;
+    background-color: #fff;
+}
+.indexpro .hd ul li{
+    float: left;
+    width: 11px;
+    height: 11px;
+    margin-right:8px;
+    border-radius: 6px;
+    background-color: #b5c0cb;
+    overflow: hidden;
+    text-indent: -9999px;
+    cursor: pointer;
+
+}
+.indexpro .hd ul li.on{
+    background-color: #38b774;
+}
+.indexnews{
+    float:left;
+    width: 500px;
+    height: 310px;
+    background: url(../images/bynewsbg.jpg)no-repeat 0 -10px;
+}
+.indexnews .mtitle {
+    background: none;
+    border: none;
+}
+.mtitle {
+    padding: 40px 216px 0 0;
+    height: 110px;
+}
+.fl {
+    float: left;
+    display: none;
+}
+h2,p{
+    font-size: 12px;
+    margin: 0;
+    font-weight: bold;
+}
+.mtitle .more{
+    float: right;
+}
+.mtitle .more a{
+    display: inline-block;
+    width: 66px;
+    text-align: center;
+    height: 28px;
+    border-radius: 5px;
+    color: #30bd72;
+    border: 1px solid #33b972;
+}
+sup{
+    vertical-align: super;
+    font-size: smaller;
+}
+.indexnewscon{
+    padding: 0 20px;
+    padding-left: 20px;
+}
+.newslist li{
+    border-bottom: 1px solid #dbe1e7;
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 29px;
+}
+.newslist li .time {
+    margin-left: 18px;
+    color: #afbecf;
+    font-size: 12px;
+}
+.time{
+    float: right;
+}
+.newslist li a{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #444866;;
+
+}
+.pr{
+    position: relative;
+}
+.indexrecruitment2{
+    background: url(../images/byhrbg3.jpg) no-repeat;
+}
+.indexrecruitment{
+    float: right;
+    width: 500px;
+    height: 310px;
+}
+.stit{
+    float: left;
+    padding-left: 80px;
+    color: #fff;
+}
+ .mtitle .stit h2{
+     font-size: 28px;
+     display: block;
+     list-style: 34px;
+     font-weight: 700;
+ }
+ .indexrecruitment .mtitle .more a{
+     color: #fff;
+     border-color: #fff;
+ }
+ .mtitle .more a{
+     display: inline-block;
+     width: 64px;
+     text-align: center;
+     border-radius: 5px;
+
+ }
+ .recruit{
+     padding:0 175px 0 20px;
+ }
+ .indexrecruitment2 h3{
+     color: #fff;
+     font-size: 14px;
+ }
+ .recruitlist li{
+     padding: 4px 0;
+     border-bottom: 1px solid #6fdea3;
+     font-size: 14px;
+     line-height: 38px;
+     height: 38px;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     color: #fff;
+ }
+ .indexnews .more a:hover{
+     background-color: #33b972;
+     color: #fff;
+ }
+.pr .more a:hover{
+    background-color: #fff;
+    color: #30b972;
+}

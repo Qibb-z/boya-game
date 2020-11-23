@@ -1,0 +1,150 @@
+.faqbanner{
+    
+    height: 254px;
+    background: url(../images/faqbanner\ \(1\).jpg);
+}
+.area {
+    width: 1000px;
+    margin: auto;
+    clear: both;
+}
+.location  h2.fq_t {
+    background-position: 0 -188px;
+}
+.location h2{
+    font-weight: bold;
+    color: #444866;
+    line-height: 29px;
+    font-size: 20px;
+    padding-left: 30px;
+    height: 29px;
+    background: url(../images/location.png) no-repeat 0 -44px;
+}
+.location {
+    padding: 25px 0 15px;
+    border-bottom: 1px solid #c7d6e5;
+}
+.qlink {
+    float: right;
+    line-height: 20px;
+    height: 20px;
+    margin-top: 4px;
+    color: #444866;
+}
+.qlink a.home {
+    width: 20px;
+    height: 20px;
+    background: url(../images/home.png) no-repeat center 3px;
+}
+.qlink a, .qlink label {
+    display: inline-block;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    outline: none;
+    color: #444866;
+    cursor: pointer;
+    transition: background-color 0.2s linear 0s;
+}
+.qlink em {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/icon.png) no-repeat 0 -150px;
+    width: 4px;
+    height: 8px;
+    line-height: 8px;
+    margin: 0 7px;
+}
+.combox{
+   padding-bottom: 40px;
+}
+.fcontact{
+    padding:30px 0 26px;
+    overflow: hidden;
+    color: #444866;
+}
+.fconul{
+    width: 105%;
+}
+.fcontact li{
+    float: left;
+    width: 320px;
+    height: 134px;
+    background: #f1f1f1;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 3px;
+}
+.fcontact li .fconimg{
+    width: 38px;
+    height: 68px;
+    background: url(../images/faqicon.png) no-repeat ;
+    margin: auto;
+    padding-right: 12px;
+}
+.fcontact p{
+    line-height: 20px;
+    font-size: 14px;
+}
+.fcontact h1{
+    line-height: 26px;
+    font-size: 24px;font-weight: normal;
+}
+.fcontact  li.fconli2 .fconimg{
+    background-position: 0 -201px;
+    width: 60px;
+}
+.fcontact  li.fconli3 .fconimg{
+    background-position: 0 -136px;
+    width: 60px;
+}
+.fcontact  li.fconli3 h1 a:hover{
+   text-decoration: underline;
+}
+.flist h3.fil_t{
+    font-weight: normal;
+   font-size: 14px;
+    line-height: 62px;
+}
+.flist{
+    color: #444866;
+    padding-bottom: 40px;
+}
+.flist_0{
+    overflow: hidden;
+    border-right: 1px solid#dbe1e7;
+    border-bottom: 1px solid #dbe1e7;
+    widows: 999px;
+}
+.flist li{
+    text-align: center;
+    border-top: 1px solid #dbe1e7;
+    border-left: 1px solid #dbe1e7;
+    float: left;
+    width: 249px;
+    height: 150px;
+}
+.flist a{
+    display: block;
+    width: 249px;
+    height: 150px;
+    background-color: #fff;
+    transition: all 0.2s linear 0s;
+}
+.flist a:hover{
+    background-color: #f1f1f1;
+}
+.flist .flibox{
+    padding-top: 35px;
+}
+.flist .fliimg img{
+    width: 70px;
+    height: 70px;border: 0;
+    vertical-align: middle;
+}
+.flist p{
+    line-height: 36px;
+    columns: #444866;
+    font-size: 14px;
+}

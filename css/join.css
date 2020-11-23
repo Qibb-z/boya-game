@@ -1,0 +1,110 @@
+.fqbanner{
+    
+    height: 515px;
+    background: url(../images/hrbanner.jpg);
+}
+.area{
+    width:1000px;
+    margin: auto;
+    clear: both;
+} 
+.hrtitle{
+    text-align: center;
+    padding: 45px 0;
+
+}
+.m_bottom56{
+    margin-bottom: 56px;
+}
+.hrbox{
+    float: left;
+    width: 333px;
+}
+.upn{
+    width: 333px;
+    height: 80px;
+    line-height: 80px;
+    background-color: #50cc8a;;
+    
+}
+.upn img,
+.upn2 img,
+.upn3 img{
+    padding-left: 15px;
+}
+.box1 .hrcon{
+    background-color: #33b972;
+}
+.hrcon{
+    width: 333px;
+    height: 130px;
+    padding: 12px;
+    overflow: hidden;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+}
+.hrlist li a{
+    color:#fff;
+    padding-left: 15px;
+    background: url(../images/newsdot.png) no-repeat 0 10px;
+}
+.hrlist li a:hover{
+    background-position: 0 -80px;
+    color: #fde230;
+}
+.box1 .hrmore{
+   background:  #33b972;
+}
+.hrmore{
+    clear: both;
+    text-align: right;
+  padding-right: 18px;
+    padding-bottom: 10px;
+}
+.hrmore a{
+    display: inline-block;
+    padding-right: 8px;
+    background: url(../images/arrow_hover.png) no-repeat right center;
+    color: #fff;
+}
+.upn2{
+    width: 333px;
+    height: 80px;
+    line-height: 80px;
+    background-color: #fcb44b;
+}
+.box2 .hrcon{
+    background-color: #f2a536;
+}
+.box2 .hrcon h3{
+    font-weight: bold;
+    line-height: 20px;
+    color: #fff;
+}
+.box2 .hrmore{
+    background:  #f2a536;
+}
+
+.upn3{
+    width: 333px;
+    height: 80px;
+    line-height: 80px;
+    background: #6ac9ff;
+}
+.box3 .hrcon{
+    background: #46b6f6;
+}
+.box3 .hrmore{
+    background: #46b6f6;
+}
+.welfare li{
+    float: left;
+    width: 33.3%;
+}
+.welfare li a:hover{
+   color:  #ff0;
+}
+.center_con{
+   height: 470px;
+}
